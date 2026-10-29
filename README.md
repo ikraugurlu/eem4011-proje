@@ -38,3 +38,4 @@ Bu projede, sabit 0 eşikli ve kişiye özgü parametresi olmayan basit bir kura
 
 - `sekil_en_kotu3_erd.png`: Doğruluğu en düşük 3 kişide C3 ve C4 mu ERD'si (sol ve sağ denemeler).
 - `sekil_binom_guc.png`: 45 denemede kişi başı anlamlılığa ulaşma olasılığı (binom hesabı).
+- `sekil_kisi_basi_dogruluk.png`: 20 kişide kişi başı doğruluk, baseline ve Laplacian yan yana; kesik çizgi şans düzeyi (0,50), noktalı çizgi tek kişide binom anlamlılık eşiği (30/45 = 0,667).
