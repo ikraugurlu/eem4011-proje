@@ -28,7 +28,11 @@ Bu projede, sabit 0 eşikli ve kişiye özgü parametresi olmayan basit bir kura
 - 20 kişi, 60 dosya, 900 deneme.
 - Baseline doğruluk (kişi başı doğruluğun ortalaması): **0,542 ± 0,056** (ddof=1), medyan 0,544.
 - Kişileri yeniden örnekleyen bootstrap (2000 tekrar, tohum 0) ile %95 güven aralığı: **[0,519, 0,566]**.
-- İlk iyileştirmeden sonraki değer: ___
+- İlk iyileştirme (sonuç görülmeden önce seçildi): küçük Laplacian uzamsal filtre (C3 − ortalama(FC3, C1, C5, CP3); C4 − ortalama(FC4, C2, C6, CP4)). Kişi başı doğruluk **0,524 ± 0,106**, medyan 0,489. Baseline'dan fark −0,018 ± 0,109; 7 kişide arttı, 1 kişide aynı kaldı, 12 kişide azaldı. Ortalama doğruluk artmadı.
+
+## Seçim yanlılığı denetimi
+
+18 kalibrasyonsuz ayar (3 bant × 2 pencere × 3 uzamsal seçenek) yalnız S001–S010 kişilerinde denendi. En iyi görünen ayar (8–13 Hz, 1,0–4,0 s, Laplacian; 0,578) S011–S020 kişilerinde bir kez ölçüldü: 0,478 ± 0,045 (aynı kişilerde baseline 0,549 ± 0,053). Fark −0,071, %95 güven aralığı [−0,118, −0,022]. Geliştirme kişilerindeki artış yeni kişilere taşınmadı.
 
 ## Şekiller
 
